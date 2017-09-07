@@ -7,8 +7,6 @@ cache:
         - "~/.platformio"
 env:
     - PLATFORMIO_CI_SRC=src/main.cpp
-    - PLATFORMIO_CI_SRC=lib/mod1/src/mod1.cpp
-
 install:
     - pip install -U platformio
 script:
