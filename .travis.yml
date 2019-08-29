@@ -10,6 +10,6 @@ env:
 install:
     - pip install -U platformio
 script:
-    - pio remote -a rpi1 run -t upload -e nodemcuv2
-    - pio remote -a rpi1 test -e nodemcuv2
+    - pio remote -a T430Uno run -t upload -e uno
+    - pio remote -a T430Uno test -e uno
 
