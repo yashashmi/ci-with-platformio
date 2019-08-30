@@ -10,6 +10,7 @@ void test_mod1() {
 	mod1_init(&o);
 
 	mod1_set_a(&o, 17);
+	//Test change
 	TEST_ASSERT_EQUAL(mod1_get_a(&o), 17);
 
 	mod1_process(&o);
